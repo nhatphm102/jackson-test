@@ -33,6 +33,13 @@ export const UnitsConversionTable: any[] = [
         conversionFactor: 1 * 1000
     },
     {
+        fromUnitName: UoMName.cups,
+        fromUnitType: UoMType.volume,
+        toUnitName: UoMName.millilitres,
+        toUnitType: UoMType.volume,
+        conversionFactor: 236.6
+    },
+    {
         // hack for eggs
         fromUnitName: UoMName.whole,
         fromUnitType: UoMType.whole,
