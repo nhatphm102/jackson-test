@@ -5,6 +5,7 @@
       "es6",
       "dom"
     ],
+    "target": "ES6",
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "allowJs": true,
@@ -14,6 +15,6 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": false
   }
 }
